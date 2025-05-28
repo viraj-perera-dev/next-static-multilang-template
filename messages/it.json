@@ -1,0 +1,16 @@
+{
+  "Navbar": {
+    "Home": "Home",
+    "About": "Chi Siamo",
+    "Contact": "CONTATTI"
+  },
+  "HomePage": {
+    "title": "Benvenuto!"
+  },
+  "AboutUs": {
+    "title": "Chi Siamo"
+  },
+  "Contact": {
+    "title": "Contatti"
+  }
+}
