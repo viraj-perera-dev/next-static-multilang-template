@@ -14,7 +14,9 @@ const nextConfig = {
     module: 'ESNext',
     target: 'ESNext',
     moduleResolution: 'Bundler'
-  }
+  },
+  generateBuildId: async () => 'build',
+  skipTrailingSlashRedirect: true,
 };
 
 export default withNextIntl(nextConfig);

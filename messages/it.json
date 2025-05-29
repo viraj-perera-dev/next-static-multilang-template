@@ -12,5 +12,10 @@
   },
   "Contact": {
     "title": "Contatti"
+  },
+  "NotFound": {
+    "title": "Pagina Non Trovata",
+    "description": "La pagina che stai cercando non esiste o è stata spostata.",
+    "backToHome": "Torna alla Home"
   }
 }

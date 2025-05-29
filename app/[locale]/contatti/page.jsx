@@ -26,13 +26,6 @@ export default async function Contact({ params }) {
     <main>
       <div className="w-full h-screen flex flex-col justify-center items-center bg-[#fefefe] z-50">
         <p className="text-red-500 text-6xl font-bold">{t('title')}</p>
-        <div className="flex gap-5 mt-10">
-          {params.locale === 'it' ? (
-            <Link className='px-5 py-2 bg-red-600 text-white rounded-full hover:bg-white hover:text-red-600 transition duration-300 border border-red-600' href="/" locale="en">English</Link>
-          ) : (
-            <Link className='px-5 py-2 bg-red-600 text-white rounded-full hover:bg-white hover:text-red-600 transition duration-300 border border-red-600' href="/" locale="it">Italiano</Link>
-          )}
-        </div>
       </div>
     </main>
   );
